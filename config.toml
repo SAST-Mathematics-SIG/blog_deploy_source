@@ -116,3 +116,30 @@ params:
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
   BookTranslatedOnly: false
+
+# Set type to 'docs' if you want to render page outside of configured section or if you render section other than 'docs'
+type = 'docs'
+
+# Set page weight to re-arrange items in file-tree menu (if BookMenuBundle not set)
+weight = 10
+
+# (Optional) Set to 'true' to mark page as flat section in file-tree menu (if BookMenuBundle not set)
+bookFlatSection = false
+
+# (Optional) Set to hide nested sections or pages at that level. Works only with file-tree menu mode
+bookCollapseSection = true
+
+# (Optional) Set true to hide page or section from side menu (if BookMenuBundle not set)
+bookHidden = false
+
+# (Optional) Set 'false' to hide ToC from page
+bookToC = true
+
+# (Optional) If you have enabled BookComments for the site, you can disable it for specific pages.
+bookComments = true
+
+# (Optional) Set to 'false' to exclude page from search index.
+bookSearchExclude = true
+
+# (Optional) Set explicit href attribute for this page in a menu (if BookMenuBundle not set)
+bookHref = ''
